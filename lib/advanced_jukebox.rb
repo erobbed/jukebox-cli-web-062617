@@ -25,6 +25,7 @@ end
 
 
 def list(my_songs)
+  my_songs.keys
   binding.pry
   #this method is different! Collect the keys of the my_songs hash and
   #list the songs by name
